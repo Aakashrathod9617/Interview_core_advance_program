@@ -1,0 +1,21 @@
+package oop;
+
+public class CircleArray extends ShapeArray {
+
+	private double radius;
+	
+	public double getRadius() {
+		
+		return radius;
+	}
+	
+	public void setRadius(double radius ) {
+		this.radius=radius;
+		
+	}
+	@Override
+	public double area() {
+		
+		return 3.14*radius*radius;
+	}
+}
